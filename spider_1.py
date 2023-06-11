@@ -9,7 +9,7 @@ import urllib3
 class Spyder1Spider(scrapy.Spider):
     name = 'spider_1'
     # allowed_domains = [r'C:\Users\mvman\projects2\Jobs\Gates_com']
-    start_urls = [r"C:\Users\mvman\projects2\Jobs\Gates_com\test1\equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%2FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel", r"C:\Users\mvman\projects2\Jobs\Gates_com\test1\equipment-clazz=Passenger+Cars+%26+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist"]
+    start_urls = [r"file:///C:\Users\mvman\projects2\Jobs\Gates_com\test1\equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%2FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel", r"file:///C:\Users\mvman\projects2\Jobs\Gates_com\test1\equipment-clazz=Passenger+Cars+%26+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist"]
     custom_settings = {
         "DOWNLOAD_DELAY" : "5",
         "CONCURRENT_REQUESTS_PER_DOMAIN" : "1",
