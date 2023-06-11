@@ -1,3 +1,4 @@
+from time import ctime
 import scrapy
 import scrapy.http.response.html
 from scrapy.selector import Selector
@@ -6,16 +7,19 @@ from scrapy.selector import SelectorList
 # reference file: my:rpr:C:\Users\mvman\projects2\Jobs\Gates_com\Vld1.txt#1 , 23:08 6/9/2023
 class Spyder1Spider(scrapy.Spider):
     name = 'spider_1'
-    # allowed_domains = [r'C:\Users\mvman\projects2\Jobs\Gates_com']
-    # start_urls = [r"file:///C:\Users\mvman\projects2\Jobs\Gates_com\result_1.html"]
-    allowed_domains = ['www.gates.com']
-    start_urls = [r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%2FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel"]
+    allowed_domains = [r'C:\Users\mvman\projects2\Jobs\Gates_com']
+    start_urls = [r"file:///C:\Users\mvman\projects2\Jobs\Gates_com\result_1.html", r"file:///C:\Users\mvman\projects2\Jobs\Gates_com\result_2.html"]
+    custom_settings = {
+        "DOWNLOAD_DELAY" : "5",
+        "CONCURRENT_REQUESTS_PER_DOMAIN" : "1",
+        "ROBOTSTXT_OBEY" : "False",
+        "USER_AGENT" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+    # allowed_domains = ['www.gates.com']
+    # start_urls = [r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%2FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel"]
 
     def parse(self, response: scrapy.http.response.html.HtmlResponse):
-        """ yield {
-            'URL': response.url,
-            "me": "Vladi"
-        } """
+        print(f"{ctime()}: tag._1: received response.!")
         apc = response.xpath('//ul[contains(@class, "gor-accordion nested-accordion")]') #{apc=AllProductsContainer (in the current page)}
         categs: SelectorList = apc[0].xpath("child::li") #{axis, works also without mo."[0]". categs = (the) categoriesList}
         categ: Selector = None  # for VSC hints.
