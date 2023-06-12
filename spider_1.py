@@ -8,18 +8,22 @@ import urllib.parse
 # reference file: my:rpr:C:\Users\mvman\projects2\Jobs\Gates_com\Vld1.txt#1 , 23:08 6/9/2023
 class Spyder1Spider(scrapy.Spider):
     name = 'spider_1'
-    allowed_domains = [r'C:/Users/mvman/projects2/Jobs/Gates_com/test1']
-    start_urls = [r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%252FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel", r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Passenger+Cars+%2526+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist"]
+    # allowed_domains = [r'C:/Users/mvman/projects2/Jobs/Gates_com/test1']
+    # start_urls = [r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%252FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel", r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Passenger+Cars+%2526+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist"]
     custom_settings = {
         "DOWNLOAD_DELAY" : "5",
         "CONCURRENT_REQUESTS_PER_DOMAIN" : "1",
         "ROBOTSTXT_OBEY" : "False",
         "USER_AGENT" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
     }
-    # allowed_domains = ['www.gates.com']
-    # start_urls = [r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%2FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel"]
-    # base_url = r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?"
-    base_url = r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/"  # dont support raw string bexause of last backslash..
+    allowed_domains = ['www.gates.com']
+    start_urls = [
+        r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Passenger+Cars+%26+Light+Trucks&vehicle-type=Light+Trucks&year=2023&make=Chevrolet&model=Traverse&engine=V-6+3.6+L",
+        r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Passenger+Cars+%26+Light+Trucks&vehicle-type=Light+Trucks&year=2023&make=Hyundai&model=Kona&engine=4-Cyl.+1.6+L",
+        r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?equipment-clazz=Passenger+Cars+%26+Light+Trucks&vehicle-type=Light+Trucks&year=2023&make=Tesla+Motors&model=Model+Y&engine=Electric"
+    ]
+    base_url = r"https://www.gates.com/us/en/ymm/search/vehicle/result.html?"
+    # base_url = r"file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/"
 
     def parse(self, response: scrapy.http.response.html.HtmlResponse):
         print(f"{ctime()}: tag._1: received response.!")
