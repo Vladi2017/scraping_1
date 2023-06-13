@@ -1,0 +1,72 @@
+URL,me
+file:///C:%5CUsers%5Cmvman%5Cprojects2%5CJobs%5CGates_com%5Cresult_1.html,Vladi
+,
+,
+,
+,
+,
+,
+Category,Subcategory,Application,Product Type,Part#,Comments
+Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060744,View Chevrolet (Front End Accessory Drive Components) Diagram
+Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,38397,
+Belt Drive System,Front End Accessory Drive Components,Idler Pulley,Belt Drive Pulleys,36110,
+Cooling System,Coolant Hose,Lower,Molded Coolant Hose,51869,
+Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi
+Oil & Lubrication System,Oil Caps,Oil Filler Cap,Oil Filler Caps,31103,
+Category,Subcategory,Application,Product Type,Part#,Comments
+Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Heavy Duty),K080830HD,
+Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K080830,
+Belt Drive System,Front End Accessory Drive Components,Tensioner Assy. - Fan,Belt Drive Tensioners,38702,
+Belt Drive System,Front End Accessory Drive Components,Alt. Decoupler Pulley Tool,Tools & Accessories,91024,
+Cooling System,Coolant Hose,Upper,Molded Coolant Hose,51547,
+Cooling System,Coolant Hose,Lower,Molded Coolant Hose,51548,
+Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31405,15 psi
+Cooling System,"Thermostats, Seals & Gaskets",Thermostat,OE Type Thermostats,33915,"OE Temperature, Seal included; 190°"
+Cooling System,Water Pumps & Components,Water Pump,Water Pumps (Heavy-Duty),42241HD,
+Fuel System,Fuel Caps & Testers,Fuel Cap,Regular Locking Fuel Caps,31318,
+
+{tag.dst0000.:
+Category,Subcategory,Application,Product Type,Part#,Comments
+Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060744,View Chevrolet (Front End Accessory Drive Components) Diagram
+Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,38397,
+Belt Drive System,Front End Accessory Drive Components,Idler Pulley,Belt Drive Pulleys,36110,
+Cooling System,Coolant Hose,Lower,Molded Coolant Hose,51869,
+Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi
+Oil & Lubrication System,Oil Caps,Oil Filler Cap,Oil Filler Caps,31103,
+Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060724,View Chevrolet (Front End Accessory Drive Components) Diagram
+Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,39516,
+Cooling System,Coolant Hose,Upper,Molded Coolant Hose,51468,
+Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi
+Cooling System,Water Pumps & Components,Water Pump; W/O Housing,Water Pumps (Standard),43326,
+}
+
+
+file:///C:\Users\mvman\projects2\Jobs\Gates_com\test1\equipment-clazz,vehicle-type,year,make,model,engine,Category,Subcategory,Application,Product Type,Part#,Comments,Link
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060744,View Chevrolet (Front End Accessory Drive Components) Diagram,file:///C:%5CUsers%5Cmvman%5Cprojects2%5CJobs%5CGates_com%5Ctest1%5Cequipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%252FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,38397,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Idler Pulley,Belt Drive Pulleys,36110,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Cooling System,Coolant Hose,Lower,Molded Coolant Hose,51869,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Oil & Lubrication System,Oil Caps,Oil Filler Cap,Oil Filler Caps,31103,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060724,View Chevrolet (Front End Accessory Drive Components) Diagram,file:///C:%5CUsers%5Cmvman%5Cprojects2%5CJobs%5CGates_com%5Ctest1%5Cequipment-clazz=Passenger+Cars+%2526+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,39516,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Coolant Hose,Upper,Molded Coolant Hose,51468,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Water Pumps & Components,Water Pump; W/O Housing,Water Pumps (Standard),43326,,
+
+
+{tag.dst0001.:
+(scrapyEnv1) PS C:\Users\mvman\projects2\Jobs\Gates_com\gates> scrapy crawl --output out1.csv:csv spider_1
+equipment-clazz,vehicle-type,year,make,model,engine,Category,Subcategory,Application,Product Type,Part#,Comments,Link   #Vld.{this line is the table's head., 02:08 6/12/2023}
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060744,View Chevrolet (Front End Accessory Drive Components) Diagram,file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Buses&vehicle-type=School+Buses&year=2017&make=International%252FNavistar&model=CE&engine=Cummins+ISB6.7+Diesel
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,38397,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Belt Drive System,Front End Accessory Drive Components,Idler Pulley,Belt Drive Pulleys,36110,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Cooling System,Coolant Hose,Lower,Molded Coolant Hose,51869,,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi,
+Buses,School Buses,2017,International%2FNavistar,CE,Cummins ISB6.7 Diesel,Oil & Lubrication System,Oil Caps,Oil Filler Cap,Oil Filler Caps,31103,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Belt Drive System,Front End Accessory Drive Components,Serpentine,Automotive V-Ribbed Belts (Standard),K060724,View Chevrolet (Front End Accessory Drive Components) Diagram,file:///C:/Users/mvman/projects2/Jobs/Gates_com/test1/equipment-clazz=Passenger+Cars+%2526+Light+Trucks&vehicle-type=Light+Trucks&year=2022&make=BMW&model=X3&engine=6-Cyl.+3.0+L+Electric+Assist
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Belt Drive System,Front End Accessory Drive Components,Tensioner Assy.,Belt Drive Tensioners,39516,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Coolant Hose,Upper,Molded Coolant Hose,51468,,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Radiator Caps & Testers,Coolant Recovery Tank Cap,OE Type Radiator Caps,31569,20 psi,
+Passenger Cars %26 Light Trucks,Light Trucks,2022,BMW,X3,6-Cyl. 3.0 L Electric Assist,Cooling System,Water Pumps & Components,Water Pump; W/O Housing,Water Pumps (Standard),43326,,
+}
